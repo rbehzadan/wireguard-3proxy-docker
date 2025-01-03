@@ -1,6 +1,6 @@
 # WireGuard with 3proxy Docker Image
 
-This Docker image combines WireGuard VPN with 3proxy to provide both HTTP and SOCKS5 proxy services through a VPN tunnel.
+This Docker image combines WireGuard VPN with [3proxy](https://3proxy.org/) to provide both HTTP and SOCKS5 proxy services through a VPN tunnel.
 
 ## Features
 
@@ -18,7 +18,7 @@ This Docker image combines WireGuard VPN with 3proxy to provide both HTTP and SO
 
 ## Usage
 
-1. Prepare your WireGuard configuration file `wg0.conf`. Example:
+- Prepare your WireGuard configuration file `wg0.conf`. Example:
 ```ini
 [Interface]
 PrivateKey = your_private_key
@@ -31,7 +31,7 @@ AllowedIPs = 0.0.0.0/0
 Endpoint = peer_endpoint:port
 ```
 
-2. Run with Docker Compose:
+- Run with Docker Compose:
 ```bash
 docker compose up -d
 ```
@@ -103,4 +103,4 @@ This project is licensed under the MIT License.
 Project source code and documentation are available on [GitHub](https://github.com/rbehzadan/wireguard-3proxy-docker).
 
 ## Similar Projects
-[linuxserver/wireguard](https://hub.docker.com/r/linuxserver/wireguard) - A robust WireGuard container that focuses on VPN functionality. Our project extends this concept by adding HTTP and SOCKS5 proxy capabilities through 3proxy.
+[linuxserver/wireguard](https://hub.docker.com/r/linuxserver/wireguard) - A robust WireGuard container that focuses on VPN functionality. Our project extends this concept by adding HTTP and SOCKS5 proxy capabilities through [3proxy](https://3proxy.org/).
