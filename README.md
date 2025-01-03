@@ -1,6 +1,6 @@
 # wireguard-3proxy-docker
 
-Docker container combining WireGuard VPN with 3proxy to provide HTTP and SOCKS5 proxy services through an encrypted tunnel.
+Docker container combining WireGuard VPN with [3proxy](https://github.com/3proxy/3proxy) to provide HTTP and SOCKS5 proxy services through an encrypted tunnel.
 
 ## Features
 
