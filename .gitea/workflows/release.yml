@@ -32,4 +32,4 @@ jobs:
           push: true
           tags: |
             dcr.behzadan.com/reza/wireguard-3proxy:latest
-            dcr.behzadan.com/reza/wireguard-3proxy:${{ gitea.tag_name }}
+            dcr.behzadan.com/reza/wireguard-3proxy:${{ gitea.ref_name }}
