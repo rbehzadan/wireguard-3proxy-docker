@@ -99,5 +99,8 @@ docker build -t rbehzadan/wireguard-3proxy:tag .
 
 This project is licensed under the MIT License.
 
+## Source Code
+Project source code and documentation are available on [GitHub](https://github.com/rbehzadan/wireguard-3proxy-docker).
+
 ## Similar Projects
 [linuxserver/wireguard](https://hub.docker.com/r/linuxserver/wireguard) - A robust WireGuard container that focuses on VPN functionality. Our project extends this concept by adding HTTP and SOCKS5 proxy capabilities through 3proxy.
